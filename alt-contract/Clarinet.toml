@@ -5,10 +5,13 @@ authors = []
 telemetry = true
 cache_dir = '.\.cache'
 requirements = []
-[contracts.transparent-fund-allocation]
-path = 'contracts/transparent-fund-allocation.clar'
 [contracts.alttoken]
 path = 'contracts/alttoken.clar'
+clarity_version = 3
+epoch = 3.0
+
+[contracts.governance]
+path = 'contracts/governance.clar'
 clarity_version = 3
 epoch = 3.0
 
@@ -16,6 +19,11 @@ epoch = 3.0
 path = 'contracts/proposal.clar'
 clarity_version = 3
 epoch = 3.0
+
+[contracts.transparent-fund-allocation]
+path = 'contracts/transparent-fund-allocation.clar'
+clarity_version = 1
+epoch = 2.05
 [repl.analysis]
 passes = ['check_checker']
 
