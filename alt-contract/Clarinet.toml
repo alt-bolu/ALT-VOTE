@@ -5,6 +5,8 @@ authors = []
 telemetry = true
 cache_dir = '.\.cache'
 requirements = []
+[contracts.transparent-fund-allocation]
+path = 'contracts/transparent-fund-allocation.clar'
 [contracts.alttoken]
 path = 'contracts/alttoken.clar'
 clarity_version = 3
