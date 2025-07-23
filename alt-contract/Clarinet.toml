@@ -20,6 +20,11 @@ path = 'contracts/proposal.clar'
 clarity_version = 3
 epoch = 3.0
 
+[contracts.proposal-registry]
+path = 'contracts/proposal-registry.clar'
+clarity_version = 3
+epoch = 3.0
+
 [contracts.transparent-fund-allocation]
 path = 'contracts/transparent-fund-allocation.clar'
 clarity_version = 1
