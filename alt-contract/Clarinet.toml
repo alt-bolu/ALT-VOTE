@@ -29,6 +29,11 @@ epoch = 3.0
 path = 'contracts/transparent-fund-allocation.clar'
 clarity_version = 1
 epoch = 2.05
+
+[contracts.treasury]
+path = 'contracts/treasury.clar'
+clarity_version = 3
+epoch = 3.0
 [repl.analysis]
 passes = ['check_checker']
 
