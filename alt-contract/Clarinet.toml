@@ -5,6 +5,11 @@ authors = []
 telemetry = true
 cache_dir = '.\.cache'
 requirements = []
+[contracts.Dao-access]
+path = 'contracts/Dao-access.clar'
+clarity_version = 3
+epoch = 3.0
+
 [contracts.alttoken]
 path = 'contracts/alttoken.clar'
 clarity_version = 3
